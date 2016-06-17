@@ -1,7 +1,7 @@
 Google Font Optimization Tests
 ==============================
 
-Using the following fonts:
+Testing the following font inclusion methods over simulated 3G in Chrome Dev tools, and Google Page Speed Insights
 
 - Merriweather:
   - 400,
@@ -19,17 +19,32 @@ Using the following fonts:
   - 700
 
 # @Import Method
-  - Mobile
-    - Load time:
-    - Page Speed Results
-  - Desktop
-    - Load time:
-    - Page Speed Results
+  - [Link To Page Speed Results](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fsomecallmejosh.github.io%2Fgoogle-font-tests%2Fimport-method.html&tab=desktop)
+  - Mobile Page Speed Results: 71/100
+  - Desktop Page Speed Results: 89/100
+  - Requests: 11
+  - Transferred: 108KB
+  - Finish 1.8s
+  - DOM Content Loaded: 201ms
+  - Load: 313ms
 
 # Link Method
-  - Load time:
-  - Page Speed Results:
+  - [Link To Page Speed Results](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fsomecallmejosh.github.io%2Fgoogle-font-tests%2Flink-method.html&tab=mobile)
+  - Mobile Page Speed Results: 75/100
+  - Desktop Page Speed Results: 91/100
+  - Requests: 11
+  - Transferred: 108KB
+  - Finish 1.69s
+  - DOM Content Loaded: 210ms
+  - Load: 319ms
+
 
 # Font API Method
-  - Load time:
-  - Page Speed Results:
+  - [Link To Page Speed Results](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fsomecallmejosh.github.io%2Fgoogle-font-tests%2Fjavascript-method.html&tab=desktop)
+  - Mobile Page Speed Results: 100/100
+  - Desktop Page Speed Results: 100/100
+  - Requests: 14
+  - Transferred: 138KB
+  - Finish 2.3s
+  - DOM Content Loaded: 227ms
+  - Load: 654ms
