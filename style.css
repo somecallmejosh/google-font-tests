@@ -26,3 +26,12 @@
 em {
   font-style: italic;
 }
+
+.wf-loading [class^="mer"] {
+  font-family: serif;
+}
+
+.wf-loading [class^="mont"],
+.wf-loading [class^="roboto"] {
+  font-family: sans-serif;
+}
