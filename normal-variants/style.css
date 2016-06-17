@@ -1,0 +1,56 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 2rem;
+}
+
+[class^="mer"] {
+  font-family: 'Merriweather', serif;
+}
+
+[class^="mont"] {
+  font-family: 'Montserrat', sans-serif;
+}
+
+[class^="roboto"] {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+[class$="300"] {
+  font-weight: 300;
+}
+[class$="400"] {
+  font-weight: 400;
+}
+[class$="700"] {
+  font-weight: 700;
+}
+[class$="900"] {
+  font-weight: 300;
+}
+
+.arial-black-stack,
+.georgia-stack,
+.helvetica-stack {
+  font-size: 101%;
+}
+
+em {
+  font-style: italic;
+}
+
+.wf-loading [class^="mer"],
+.georgia-stack {
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.wf-loading [class^="mont"],
+.helvetica-stack {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.wf-loading [class^="roboto"],
+.arial-black-stack {
+  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+}

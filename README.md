@@ -37,8 +37,7 @@ Testing the following font inclusion methods over simulated 3G in Chrome Dev too
   - Finish 1.69s
   - DOM Content Loaded: 210ms
   - Load: 319ms
-
-
+  
 # Javascript Method
   - [Link To Page Speed Results](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fsomecallmejosh.github.io%2Fgoogle-font-tests%2Fjavascript-method.html&tab=desktop)
   - Mobile Page Speed Results: 100/100
