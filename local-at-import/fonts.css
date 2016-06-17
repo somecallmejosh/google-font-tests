@@ -1,12 +1,3 @@
-@font-face {
-  font-family: 'montserratSemiBold';
-  src: url('fonts/Montserrat-SemiBold.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'montserratLight';
-  src: url('fonts/Montserrat-Light.woff') format('woff');
-}
 
 /* Merriweather  */
 @font-face {
@@ -15,14 +6,6 @@
   font-weight: normal;
   src: url('fonts/merriweather/merriweather-black-webfont.woff2') format('woff2'),
   url('fonts/merriweather/merriweather-black-webfont.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'merriweatherblack_italic';
-  font-style: normal;
-  font-weight: normal;
-  src: url('fonts/merriweather/merriweather-blackitalic-webfont.woff2') format('woff2'),
-  url('fonts/merriweather/merriweather-blackitalic-webfont.woff') format('woff');
 }
 
 @font-face {
@@ -114,38 +97,4 @@
   font-weight: normal;
   src: url('fonts/roboto/robotocondensed-bold-webfont.woff2') format('woff2'),
   url('fonts/roboto/robotocondensed-bold-webfont.woff') format('woff');
-}
-
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-size: 2rem;
-}
-
-
-
-.arial-black-stack,
-.georgia-stack,
-.helvetica-stack {
-  font-size: 101%;
-}
-
-em {
-  font-style: italic;
-}
-
-.wf-loading [class^="mer"],
-.georgia-stack {
-  font-family: Georgia, Times, "Times New Roman", serif;
-}
-
-.wf-loading [class^="mont"],
-.helvetica-stack {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-.wf-loading [class^="roboto"],
-.arial-black-stack {
-  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
 }
