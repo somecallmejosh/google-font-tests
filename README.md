@@ -113,3 +113,33 @@ Using the same fallbacks from above.
 ### Normal Variants Assessment
 
 Doesn't seem to offer huge performance gains over the full stack variants originally tested.
+
+## Option 3 - Serve Fonts Locally
+
+### `<link>` Method
+- [Link to file](https://somecallmejosh.github.io/google-font-tests/local-at-import/link-method.html)
+- [Link To Page Speed Results](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fsomecallmejosh.github.io%2Fgoogle-font-tests%2Fnormal-variants%2Fjavascript-method.html&tab=desktop)
+- Mobile Page Speed Results: 91/100
+- Desktop Page Speed Results: 94/100
+- Requests: 12
+- Transferred: 231KB
+- Finish 2.79s
+- DOM Content Loaded: 210ms
+- Load: 2.8s
+
+### `<script>` Method
+- [Link to file](https://somecallmejosh.github.io/google-font-tests/local-at-import/javascript-method.html)
+- [Link To Page Speed Results](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fsomecallmejosh.github.io%2Fgoogle-font-tests%2Flocal-at-import%2Fjavascript-method.html&tab=mobile)
+- Mobile Page Speed Results: 90/100
+- Desktop Page Speed Results: 93/100
+- Requests: 14
+- Transferred: 263KB
+- Finish 3.25s
+- DOM Content Loaded: 1.19ms
+- Load: 3.25s
+
+### Local Serve Assessment
+
+While the data may suggest that the `<link>` option is the fast method, the `<script>` option appears to load faster without any sort of blocking. If you load the page above, you'll notice some placeholder system fonts that load immediately while the webfont loader is doing it's job. The ideal scenario would be to have design suggest placeholder fonts during load.
+
+This would likely be the better solution in a SPA, because the fonts would only need to be replaced on initial load, and any sort of forced page load after the fact.
