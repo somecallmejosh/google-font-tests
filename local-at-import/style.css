@@ -1,0 +1,151 @@
+@font-face {
+  font-family: 'montserratSemiBold';
+  src: url('fonts/Montserrat-SemiBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'montserratLight';
+  src: url('fonts/Montserrat-Light.woff') format('woff');
+}
+
+/* Merriweather  */
+@font-face {
+  font-family: 'merriweatherblack';
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/merriweather/merriweather-black-webfont.woff2') format('woff2'),
+  url('fonts/merriweather/merriweather-black-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'merriweatherblack_italic';
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/merriweather/merriweather-blackitalic-webfont.woff2') format('woff2'),
+  url('fonts/merriweather/merriweather-blackitalic-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'merriweatherbold';
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/merriweather/merriweather-bold-webfont.woff2') format('woff2'),
+  url('fonts/merriweather/merriweather-bold-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'merriweatherbold_italic';
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/merriweather/merriweather-bolditalic-webfont.woff2') format('woff2'),
+  url('fonts/merriweather/merriweather-bolditalic-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'merriweatheritalic';
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/merriweather/merriweather-italic-webfont.woff2') format('woff2'),
+  url('fonts/merriweather/merriweather-italic-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'merriweatherlight';
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/merriweather/merriweather-light-webfont.woff2') format('woff2'),
+  url('fonts/merriweather/merriweather-light-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'merriweatherlight_italic';
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/merriweather/merriweather-lightitalic-webfont.woff2') format('woff2'),
+  url('fonts/merriweather/merriweather-lightitalic-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'merriweatherregular';
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/merriweather/merriweather-regular-webfont.woff2') format('woff2'),
+  url('fonts/merriweather/merriweather-regular-webfont.woff') format('woff');
+}
+
+/* Montserrat  */
+
+@font-face {
+  font-family: 'montserratbold';
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/montserrat/montserrat-bold-webfont.woff2') format('woff2'),
+  url('fonts/montserrat/montserrat-bold-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'montserratregular';
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/montserrat/montserrat-regular-webfont.woff2') format('woff2'),
+  url('fonts/montserrat/montserrat-regular-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'montserratlight';
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/montserrat/montserrat-light-webfont.woff2') format('woff2'),
+  url('fonts/montserrat/montserrat-light-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'montserratsemi_bold';
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/montserrat/montserrat-semibold-webfont.woff2') format('woff2'),
+  url('fonts/montserrat/montserrat-semibold-webfont.woff') format('woff');
+}
+
+/* Robot  */
+@font-face {
+  font-family: 'roboto';
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/roboto/robotocondensed-bold-webfont.woff2') format('woff2'),
+  url('fonts/roboto/robotocondensed-bold-webfont.woff') format('woff');
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 2rem;
+}
+
+
+
+.arial-black-stack,
+.georgia-stack,
+.helvetica-stack {
+  font-size: 101%;
+}
+
+em {
+  font-style: italic;
+}
+
+.wf-loading [class^="mer"],
+.georgia-stack {
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.wf-loading [class^="mont"],
+.helvetica-stack {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.wf-loading [class^="roboto"],
+.arial-black-stack {
+  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+}

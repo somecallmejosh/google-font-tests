@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Javascript Method</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  html {
+    font-size: 62.5%;
+  }
+
+  body {
+    font-size: 2rem;
+  }
+
+  [class^="mer"] {
+    font-family: 'Merriweather', serif;
+  }
+
+  [class^="mont"] {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  [class^="roboto"] {
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  [class$="300"] {
+    font-weight: 300;
+  }
+  [class$="400"] {
+    font-weight: 400;
+  }
+  [class$="700"] {
+    font-weight: 700;
+  }
+  [class$="900"] {
+    font-weight: 300;
+  }
+
+  .arial-black-stack,
+  .georgia-stack,
+  .helvetica-stack {
+    font-size: 101%;
+  }
+
+  em {
+    font-style: italic;
+  }
+
+  .wf-loading [class^="mer"],
+  .georgia-stack {
+    font-family: Georgia, Times, "Times New Roman", serif;
+  }
+
+  .wf-loading [class^="mont"],
+  .helvetica-stack {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  .wf-loading [class^="roboto"],
+  .arial-black-stack {
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+  }
+
+  </style>
+</head>
+<body>
+  <h1 class="mer-900">Merriweather Family</h1>
+  <div class="mer-300">Merriweather 300</div>
+  <div class="mer-300"><em>Merriweather 300 Italic</em></div>
+  <div class="mer-400">Merriweather 400</div>
+  <div class="mer-400"><em>Merriweather 400 Italic</em></div>
+  <div class="mer-700">Merriweather 700</div>
+  <div class="mer-700"><em>Merriweather 700 Italic</em></div>
+  <div class="mer-900">Merriweather 900</div>
+  <div class="mer-900"><em>Merriweather 900 Italic</em></div>
+  <div class="georgia-stack">Merriweather Fallback Regular</div>
+  <div class="georgia-stack"><em>Merriweather Fallback Italic</em></div>
+  <div class="georgia"><strong>Merriweather Fallback Bold</strong></div>
+  <hr>
+  <h1 class="mont-700">Montserrat Family</h1>
+  <div class="mont-400">Montserrat 400</div>
+  <div class="mont-700">Montserrat 700</div>
+  <div class="helvetica-stack">Montserrat Fallback</div>
+  <hr>
+  <h1 class="roboto">Roboto 700</h1>
+  <div class="roboto">Roboto 700</div>
+  <div class="arial-black-stack">Roboto Fallback</div>
+
+  <script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Merriweather:400,300,300italic,700,400italic,700italic,900,900italic:latin', 'Montserrat:400,700:latin', 'Roboto+Condensed:700:latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
+</body>
+</html>

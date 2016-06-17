@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Link Method</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  /* Merriweather  */
+  @font-face {
+    font-family: 'merriweatherblack';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/merriweather/merriweather-black-webfont.woff2') format('woff2'),
+    url('fonts/merriweather/merriweather-black-webfont.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'merriweatherbold';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/merriweather/merriweather-bold-webfont.woff2') format('woff2'),
+    url('fonts/merriweather/merriweather-bold-webfont.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'merriweatherbold_italic';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/merriweather/merriweather-bolditalic-webfont.woff2') format('woff2'),
+    url('fonts/merriweather/merriweather-bolditalic-webfont.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'merriweatheritalic';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/merriweather/merriweather-italic-webfont.woff2') format('woff2'),
+    url('fonts/merriweather/merriweather-italic-webfont.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'merriweatherlight';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/merriweather/merriweather-light-webfont.woff2') format('woff2'),
+    url('fonts/merriweather/merriweather-light-webfont.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'merriweatherlight_italic';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/merriweather/merriweather-lightitalic-webfont.woff2') format('woff2'),
+    url('fonts/merriweather/merriweather-lightitalic-webfont.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'merriweatherregular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/merriweather/merriweather-regular-webfont.woff2') format('woff2'),
+    url('fonts/merriweather/merriweather-regular-webfont.woff') format('woff');
+  }
+
+  /* Montserrat  */
+
+  @font-face {
+    font-family: 'montserratbold';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/montserrat/montserrat-bold-webfont.woff2') format('woff2'),
+    url('fonts/montserrat/montserrat-bold-webfont.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'montserratregular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/montserrat/montserrat-regular-webfont.woff2') format('woff2'),
+    url('fonts/montserrat/montserrat-regular-webfont.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'montserratlight';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/montserrat/montserrat-light-webfont.woff2') format('woff2'),
+    url('fonts/montserrat/montserrat-light-webfont.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'montserratsemi_bold';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/montserrat/montserrat-semibold-webfont.woff2') format('woff2'),
+    url('fonts/montserrat/montserrat-semibold-webfont.woff') format('woff');
+  }
+
+  /* Robot  */
+  @font-face {
+    font-family: 'roboto';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/roboto/robotocondensed-bold-webfont.woff2') format('woff2'),
+    url('fonts/roboto/robotocondensed-bold-webfont.woff') format('woff');
+  }
+
+  html {
+    font-size: 62.5%;
+  }
+
+  body {
+    font-size: 2rem;
+  }
+
+  em {
+    font-style: italic;
+  }
+
+  .mer-black {
+    font-family: 'merriweatherblack';
+  }
+
+  .mer-bold {
+    font-family: 'merriweatherbold';
+  }
+
+  .mer-bold-italic {
+    font-family: 'merriweatherbold_italic';
+  }
+
+  .mer-italic {
+    font-family: 'merriweatheritalic';
+  }
+
+  .mer-light {
+    font-family: 'merriweatherlight';
+  }
+
+  .mer-light-italic {
+    font-family: 'merriweatherlight_italic';
+  }
+
+  .mer-regular {
+    font-family: 'merriweatherregular';
+  }
+
+  .mont-bold {
+    font-family: 'montserratbold';
+  }
+
+  .mont-light {
+    font-family: 'montserratlight';
+  }
+
+  .mont-regular {
+    font-family: 'montserratregular';
+  }
+
+  .mont-semi-bold {
+    font-family: 'montserratsemi_bold';
+  }
+
+  .roboto {
+    font-family: 'roboto';
+  }
+
+  .georgia-stack {
+    font-family: Georgia, Times, "Times New Roman", serif;
+  }
+
+  .helvetica-stack {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+  .arial-black-stack {
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+  }
+
+  .wf-loading [class^="mer"],
+  .georgia-stack {
+    font-family: Georgia, Times, "Times New Roman", serif;
+  }
+
+  .wf-loading [class^="mont"],
+  .helvetica-stack {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  .wf-loading [class^="roboto"],
+  .arial-black-stack {
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+  }
+  </style>
+</head>
+<body>
+  <div class="mer-black">Merriweather Black</div>
+  <div class="mer-bold">Merriweather Bold</div>
+  <div class="mer-bold-ital">Merriweather Bold Italic</div>
+  <div class="mer-italic">Merriweather Italic</div>
+  <div class="mer-light">Merriweather Light</div>
+  <div class="mer-light-italic">Merriweather Light Italic</div>
+  <div class="mer-regular">Merriweather Regular</div>
+  <hr>
+  <div class="mont-bold">Montserrat Bold</div>
+  <div class="mont-light">Montserrat Light</div>
+  <div class="mont-regular">Montserrat Regular</div>
+  <div class="mont-semi-bold">Montserrat Semi Bold</div>
+  <hr>
+  <div class="roboto">Roboto Condensed</div>
+</body>
+</html>
