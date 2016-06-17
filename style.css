@@ -23,17 +23,26 @@
   font-weight: 300;
 }
 
+.arial-black-stack,
+.georgia-stack,
+.helvetica-stack {
+  font-size: 101%;
+}
+
 em {
   font-style: italic;
 }
 
-.wf-loading [class^="mer"] {
+.wf-loading [class^="mer"],
+.georgia-stack {
   font-family: Georgia, Times, "Times New Roman", serif;
 }
 
-.wf-loading [class^="mont"] {
+.wf-loading [class^="mont"],
+.helvetica-stack {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.wf-loading [class^="roboto"] {
+.wf-loading [class^="roboto"],
+.arial-black-stack {
   font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
 }
