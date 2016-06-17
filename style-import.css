@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,700,400italic,700italic,900,900italic|Montserrat:400,700|Roboto+Condensed:700);
+
+[class^="mer"] {
+  font-family: 'Merriweather', serif;
+}
+
+[class^="mont"] {
+  font-family: 'Montserrat', sans-serif;
+}
+
+[class^="roboto"] {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+[class$="300"] {
+  font-weight: 300;
+}
+[class$="400"] {
+  font-weight: 400;
+}
+[class$="700"] {
+  font-weight: 700;
+}
+[class$="900"] {
+  font-weight: 300;
+}
+
+em {
+  font-style: italic;
+}

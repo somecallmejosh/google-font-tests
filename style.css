@@ -1,0 +1,28 @@
+[class^="mer"] {
+  font-family: 'Merriweather', serif;
+}
+
+[class^="mont"] {
+  font-family: 'Montserrat', sans-serif;
+}
+
+[class^="roboto"] {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+[class$="300"] {
+  font-weight: 300;
+}
+[class$="400"] {
+  font-weight: 400;
+}
+[class$="700"] {
+  font-weight: 700;
+}
+[class$="900"] {
+  font-weight: 300;
+}
+
+em {
+  font-style: italic;
+}
