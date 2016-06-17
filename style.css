@@ -1,3 +1,11 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 2rem;
+}
+
 [class^="mer"] {
   font-family: 'Merriweather', serif;
 }

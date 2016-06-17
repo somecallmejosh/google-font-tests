@@ -19,8 +19,12 @@ Using the following fonts:
   - 700
 
 # @Import Method
-  - Load time:
-  - Page Speed Results
+  - Mobile
+    - Load time:
+    - Page Speed Results
+  - Desktop
+    - Load time:
+    - Page Speed Results
 
 # Link Method
   - Load time:
